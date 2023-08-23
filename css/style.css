@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+}
+header{
+    width: 20%;
+    height: 100vh;
+    background-color: rgb(65, 57, 57);
+    position: fixed;
+}
+header h2{
+    color: white;
+    padding-top: 40%;
+    padding-left: 10%;
+    font-size: 1.5rem;
+    font-weight: 400;
+    position: absolute;
+    text-transform: capitalize;
+}
+header ul{
+    padding-top: 70%;
+
+}
+header ul li{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    width: 100%;
+    left: 10px;
+}
+header ul li a{
+    position: absolute;
+    cursor: pointer;
+    list-style: none;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-transform: capitalize;
+}
+header ul li a:hover{
+    color: black;
+    background-color: #bd1717;
+    width: 70%;
+    text-align: center;
+}
+/* --------------------------------- */
+.sec1 h1{
+    position: absolute;
+    left: 25%;
+    top: 100px;
+    font-weight: 600;
+    font-size: 3rem;
+}
+/* --------------------------------- */
+.sec2{
+    position: relative;
+    left: 25%;
+    top: 200px;
+    width: 75%;
+}
+.sec2 h2{
+    font-weight: 600;
+    font-size: 3rem;
+    color: brown;    
+}
+.sec2 p{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+}
+.sec2 p:hover{
+    width:100px;
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+}
+.sec2-img{
+    padding-top: 50px;
+    position: relative;
+}
+.sec2-im1{
+    width: 42%;
+    height: 400px;
+    opacity: 0.6;
+}
+.sec2-im2{
+    width: 42%;
+    height: 400px;
+    opacity: 0.6;
+    left: 40%;
+}
+.sec2-im3{
+    width: 42%;
+    height: 400px;
+    opacity: 0.6;
+}
+.sec2-im4{
+    width: 42%;
+    height: 400px;
+    opacity: 0.6;
+    left: 40%;
+}
+.sec2-im5{
+    width: 42%;
+    height: 400px;
+    opacity: 0.6;
+}
+.sec2-im6{
+    width: 42%;
+    height: 400px;
+    opacity: 0.6;
+    left: 40%;
+}
+.sec2-img img:hover{
+    opacity: 1;
+}
+/* -------------------------------------- */
+.sec3{
+    position: relative;
+    top: 350px;
+    width: 60%;
+    left: 25%;
+    right: 150px;
+}
+.sec3 h1{
+    font-size: 50px;
+    color: brown;
+}
+.sec3-line{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+}
+.sec3-p1{
+    font-size: 20px;
+    font-weight: 300;
+}
+/* ------------------------------- */
+
+.sec4{
+    position: relative;
+    top: 400px;
+    left: 25%;
+    width: 60%;
+    
+}
+.sec4 h1{
+    font-size: 50px;
+    color: brown;
+}
+.sec4-line{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+}
+.sec4-p11{
+    font-size: 20px;
+    font-weight: 300;
+}
+.sec4-h{
+    margin-top: 33px;
+}
+.sec4-container{
+    position: relative;
+}
+/* .sec4-parent{
+    position: relative;
+    overflow: auto;
+} */
+.sec4-item{
+    margin-top: 50px;
+    position: absolute;
+    width: 35%;
+    height: 350px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    background-color: #f1f1f1;
+    transition: 1.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
+}
+.sec4-item:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+.po1{
+    left: 40%;
+}
+.po2{
+    left: 80%;
+}
+.sec4-item img{
+    width: 100%;
+
+}
+.sec4-info{
+    text-align: center;
+}
+.sec4-info h3{
+    padding-top: 10px;
+    text-align: center;
+
+}
+.sec4-p1{
+    padding-top: 10px;
+    color: gray;
+    text-align: center;
+    
+}
+.sec4-p2{
+    padding: 10px 10px;
+
+}
+/* -------------------- */
+
+.sec5{
+    position: relative;
+    top: 950px;
+    left: 25%;
+    right: 200px;
+    width: 70%;
+}
+.sec5-h{
+    font-size: 50px;
+    color: brown;
+}
+.sec5-p1{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.sec5-line{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+    top: 60px;
+}
+.sec5-table{
+    position: relative;
+}
+.sec5-basic{
+    background-color: #f1f1f1;
+    display: inline-block;
+    height: 650px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.sec5-basic p{
+    font-size: 30px;
+    margin-top: 50px;
+    text-transform: capitalize;
+
+    
+}
+.sec5-p{
+    position: absolute;
+    top: 0%;
+    height: 70px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    background-color: #616161 !important;
+    width: 40%;
+    font-size: 20px;
+}
+.h4-1{
+    position: absolute;
+    top: 170px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.h4-2{
+    position: absolute;
+    top: 240px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.h4-3{
+    position: absolute;
+    top: 310px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.h4-4{
+    position: absolute;
+    top: 380px;
+    height: 70px;
+    text-align: center;
+    width: 40%
+}
+.h4-5{
+    position: absolute;
+    top: 450px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.sec5-basic h1{
+    position: absolute;
+    top: 520px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.sec5-basic h3{
+    color: gray;
+    position: absolute;
+    top: 546px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.sec5-basic-btn{
+    position: absolute;
+    cursor: pointer;
+    background-color: white;
+    top: 600px;
+    height: 70px;
+    text-align: center;
+    width: 20%;
+    border: 0;
+    left: 16%;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.sec5-basic-btn:hover{
+    background-color: #f44336;
+    color: #fff;
+}
+
+
+.sec5-pro{
+    background-color: #f1f1f1;
+    display: inline-block;
+    height: 600px;
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.sec5-pro p{
+    font-size: 30px;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+.sec5-p22{
+    position: absolute;
+    top: 0;
+    height: 70px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 800;
+    background-color: #f44336 !important;
+    width: 40%;
+}
+.h4-11{
+    position: absolute;
+    top: 170px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.h4-22{
+    position: absolute;
+    top: 240px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.h4-33{
+    position: absolute;
+    top: 310px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.h4-44{
+    position: absolute;
+    top: 380px;
+    height: 70px;
+    text-align: center;
+    width: 40%
+}
+.h4-55{
+    position: absolute;
+    top: 450px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.sec5-pro h1{
+    position: absolute;
+    top: 520px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.sec5-pro h3{
+    color: gray;
+    position: absolute;
+    top: 546px;
+    height: 70px;
+    text-align: center;
+    width: 40%;
+}
+.sec5-basic-btn1{
+    position: absolute;
+    cursor: pointer;
+    background-color: #f44336;
+    color: white;
+    top: 600px;
+    height: 70px;
+    text-align: center;
+    width: 20%;
+    border: 0;
+    left: 63%;
+    font-size: 30px;
+    padding-top: 15px;
+}
+.sec5-basic-btn1:hover{
+    background-color: rgb(12, 4, 4);
+    color: antiquewhite;
+}
+/* ===================== */
+.sec6{
+    position: relative;
+    top: 950px;
+    left: 25%;
+    right: 200px;
+    width: 70%;
+}
+.sec6 h1 {
+    font-size: 50px;
+    color: brown;
+}
+.sec6-line{
+    content: "";
+    width: 50px;
+    height: 5px;
+    background-color: brown;
+    position: absolute;
+    top: 50px;
+}
+.sec6-p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+.sec6-form{
+    margin-top: 70px;
+}
+.sec6-form input{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+}
+.sec6-form label{
+    
+    font-size: 20px;
+}
+.sec6-form button{
+    color: white;
+    background-color: #f44336;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    font-size: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.sec6-form button:hover{
+    background-color: rgb(12, 4, 4);
+    color: antiquewhite;
+}
+
